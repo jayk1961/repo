@@ -1,0 +1,43 @@
+Package: com.jayk1961.appinst
+Name: appinst (App Installer)
+Priority: standard
+Pre-Depends: firmware (>= 12.0)
+Depends: ai.akemi.appsyncunified (>= 5.1) | com.jayk1961.appsyncunified (>= 5.1)
+Description: A command-line IPA app installer. https://github.com/jayk1961/repo
+Maintainer: jayk1961 <jayk1961@github.com>
+Author: jayk1961
+Section: Utilities
+Homepage: https://github.com/jayk1961/repo
+Tag: role::enduser, purpose::console
+Conflicts: com.sull.appinstaller
+Provides: com.linusyang.appinst, ai.akemi.appinst
+Replaces: com.linusyang.appinst, ai.akemi.appinst
+Architecture: iphoneos-arm64e
+Version: 2.3.0-jayk1961
+Installed-Size: 252
+Filename: debs/com.jayk1961.appinst_2.3.0-jayk1961_iphoneos-arm64e.deb
+Size: 43770
+MD5sum: 15068d1eab2de3be55f2e89585c92967
+SHA1: b7c55edb5cdb6d8c5cccf9b73c852b5fcfce09bb
+SHA256: ddee1bfe1173685ee1cbf565edbe68f4cedad529d430355076ed6830c2790a98
+
+Package: com.jayk1961.appsyncunified
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5100)
+Depiction: https://github.com/jayk1961/repo
+Maintainer: jayk1961 <jayk1961@github.com>
+Homepage: https://github.com/jayk1961/repo
+Provides: appsync, net.angelxwind.appsyncunified, ai.akemi.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified, ai.akemi.appsyncunified
+Name: AppSync Unified
+Description: Enables the ability to install unsigned/fakesigned iOS applications. https://github.com/jayk1961/repo
+Section: Tweaks
+Author: jayk1961
+Architecture: iphoneos-arm64e
+Version: 116.0-jayk1961
+Installed-Size: 508
+Filename: debs/com.jayk1961.appsyncunified_116.0-jayk1961_iphoneos-arm64e.deb
+Size: 31800
+MD5sum: 5f2050c7371acade49bd946c8d2e4fb7
+SHA1: 42d6485efaf4ec4af58db530a088401541434919
+SHA256: a1b0e487d20f5723bb08e6b0bca76463aa9699422ecedda0af4a08d946ef4705
